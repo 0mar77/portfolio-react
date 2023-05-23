@@ -1,23 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from './components/Header'
+import Projects from './components/Project'
+import Footer from './components/Footer'
+import React, { useState } from 'react';
 
 function App() {
+
+  const [state, setState] = useState('AboutMe');
+
+  const changeState = (state) => { setState(state); }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+
+      <Header changeState={changeState} />
+
+      <div className='flex-container'>
+        <Projects state={state} />
+        <Footer />
+      </div>
+    
     </div>
   );
 }
