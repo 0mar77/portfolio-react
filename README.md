@@ -8,4 +8,4 @@
 
 Link to deployed Portfolio: [https://0mar77.github.io/portfolio-react/]
 
-![Image of deployed portfolio](./images/react-portfolio.png)
+![Image of deployed portfolio](./images/portfolio.png)
