@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/portfolio-react/static/css/main.be6f997b.css",
-    "main.js": "/portfolio-react/static/js/main.93459d44.js",
+    "main.js": "/portfolio-react/static/js/main.9b4b0f0f.js",
     "static/js/787.aeca62f9.chunk.js": "/portfolio-react/static/js/787.aeca62f9.chunk.js",
     "static/media/pitch.png": "/portfolio-react/static/media/pitch.9ea7a91c278a9529d0fa.png",
+    "static/media/travel-buddy.png": "/portfolio-react/static/media/travel-buddy.141cecf91233be32bc6f.png",
     "static/media/me.png": "/portfolio-react/static/media/me.0f0be94d66b1e7ab51d7.png",
     "static/media/localeats.png": "/portfolio-react/static/media/localeats.fc3574fafc4abea85ec4.png",
     "static/media/weather-dashboard.png": "/portfolio-react/static/media/weather-dashboard.ce29a54029ac17cf1326.png",
@@ -12,11 +13,11 @@
     "static/media/password-generator.png": "/portfolio-react/static/media/password-generator.09a06361ea07fa34e150.png",
     "index.html": "/portfolio-react/index.html",
     "main.be6f997b.css.map": "/portfolio-react/static/css/main.be6f997b.css.map",
-    "main.93459d44.js.map": "/portfolio-react/static/js/main.93459d44.js.map",
+    "main.9b4b0f0f.js.map": "/portfolio-react/static/js/main.9b4b0f0f.js.map",
     "787.aeca62f9.chunk.js.map": "/portfolio-react/static/js/787.aeca62f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.be6f997b.css",
-    "static/js/main.93459d44.js"
+    "static/js/main.9b4b0f0f.js"
   ]
 }
