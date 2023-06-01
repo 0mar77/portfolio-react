@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 import pitch from '../images/pitch.png'
 import localeats from '../images/localeats.png'
 import jsQuiz from '../images/js-quiz.png'
@@ -7,6 +7,7 @@ import scheduler from '../images/scheduler.png'
 import weatherDashboard from '../images/weather-dashboard.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
+import travelBuddy from '../images/travel-buddy.png'
 
 function Portfolio() {
     return (
@@ -14,6 +15,15 @@ function Portfolio() {
 
             <h2>Portfolio</h2>
             <div className="portfolio-flex">
+
+                <div className='project-card'>
+                    <img src={travelBuddy} className='project-pics' alt="Project"/>
+                    <div className='card-info'>
+                        <a href="https://whispering-oasis-41573.herokuapp.com/"><h3>Travel Buddy</h3></a>
+                        <a href='https://github.com/0mar77/travel-buddy'> <FontAwesomeIcon icon={faGithub} size='3x'/> </a><br></br>
+                        <span>MERN, Tailwind</span>
+                    </div>
+                </div>
 
                 <div className='project-card'>
                     <img src={pitch} className='project-pics' alt="Project" />
@@ -68,6 +78,7 @@ function Portfolio() {
                         <span>JavaScript, CSS, HTML, Open Weather Api</span>
                     </div>
                 </div>
+
             </div>
             
         </div>
